@@ -2,7 +2,7 @@
   Method to change Binary number to Decimal number
 */
 
-function binaryToDecimal(number){
+function BinaryToDecimal(number){
 
 }
 
@@ -11,5 +11,19 @@ function binaryToDecimal(number){
 */
 
 function DecimalToBinar(number){
-    
+
+}
+
+/*
+  Factorial of number
+*/
+
+function Factorial(number){
+  var result = 0;
+  if(number >= 0){
+    return 1;
+  }else{
+    result += number * Factorial(number - 1);
+  }
+  return result;
 }
